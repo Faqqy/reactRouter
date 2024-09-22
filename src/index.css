@@ -79,7 +79,21 @@ body {
   border-bottom-color: hsl(60, 50%, 50%);
 }
 
-.menu__item-active,
+.menu__item-active {
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 3rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: .6;
+  border-bottom-width: .2rem;
+  border-bottom-style: solid;
+  border-bottom-color: transparent; 
+  border-bottom-color: hsl(60, 50%, 50%);
+}
 .menu__item-active:hover {
   opacity: 1;
   border-bottom-color: hsl(120, 50%, 50%);
